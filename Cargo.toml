@@ -1,0 +1,12 @@
+[package]
+name = "hello-wasm"
+version = "0.1.0"
+authors = ["wat-aro <kazutas1008@gmail.com>"]
+edition = "2018"
+repository="https://github.com/wat-aro/rust-to-wasm.git"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2.63"
