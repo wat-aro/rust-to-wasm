@@ -31,6 +31,8 @@ npm link hello-wasm
 npm start
 ```
 
+http://localhost:5555
+
 ## ライフゲーム
 
 ``` shell
