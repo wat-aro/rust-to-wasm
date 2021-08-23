@@ -30,3 +30,15 @@ cd ../site
 npm link hello-wasm
 npm start
 ```
+
+## ライフゲーム
+
+``` shell
+git switch -c wasm-game-of-life origin/wasm-game-of-life
+wasm-pack build
+cd pkg
+npm link
+cd ../site
+npm link wasm-game-of-life
+npm start
+```
